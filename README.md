@@ -1,4 +1,4 @@
-* Mocha for unit testing
+* Mocha/chai for unit testing
 * Transpilation using Babel 6
 * Webpack dev server for local testing - *See **npm start***
 * Hot reloading of components for local dev - *See **webpack.config.js***
@@ -12,4 +12,9 @@
 ## Usage
 
 1. Fork and clone this repo
-2. Run **npm start** and visit **http://localhost:3000** to start editing your component
+2. Change the following values:
+
+    * **name, description and author** in package.json
+    * **entry** in webpack.config.js
+
+3. Run **npm start** and visit **http://localhost:3000** to start editing your component
