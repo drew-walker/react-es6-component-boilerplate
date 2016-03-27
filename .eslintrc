@@ -1,0 +1,11 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint-config-airbnb/rules/es6",
+    "eslint-config-airbnb/rules/react"
+  ],
+  "rules": {
+    "comma-dangle": 0,
+    "react/prefer-stateless-function": 0 // Disabling this rule until HMR supports stateless functions. https://github.com/gaearon/babel-plugin-react-transform/issues/57
+  }
+}
