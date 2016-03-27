@@ -1,5 +1,6 @@
 * Mocha/chai for unit testing
 * Transpilation using Babel 6
+* ES6 code coverage with istanbul
 * Webpack dev server for local testing - *See **npm start***
 * Hot reloading of components for local dev - *See **webpack.config.js***
 * Write your React components in ES6
